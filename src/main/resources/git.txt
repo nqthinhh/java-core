@@ -1,0 +1,7 @@
+git init : Khởi tạo project
+git status : File có trong project
+git add : Thêm vào ô tô để đẩy lên [...]
+git commit -m {message]
+git remote add origin [url]
+git branch -M main
+git push -u origin main
