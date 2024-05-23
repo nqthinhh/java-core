@@ -1,14 +1,15 @@
 public class Dog {
-    // 1.property (thuộc tính)
+    // 1. property (thuộc tính)
     String name;
     int age;
+    Gender gender;
 
-    //2. method (phương thức)
-    void bark(){
-        System.out.println("ne");
+    // 2. method (phương thức)
+    void bark() {
+        System.out.println(name + ": Gâu Gâu");
     }
 
-    int sum(int a, int b){
-        return a+b;
+    int sum(int a, int b) {
+        return a + b;
     }
 }
