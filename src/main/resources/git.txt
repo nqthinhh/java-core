@@ -1,10 +1,10 @@
 git init : Khởi tạo project
 git status : File có trong project
 git add : Thêm vào ô tô để đẩy lên [...]
-git commit -m {message]
+git commit -m "Add Lession 01"
 git remote add origin [url]
 git branch -M main
-git push -u origin main
+git push -u origin main (ten nhanh)
 
 -- Tạo nhánh và chuyển qua đó
-git checkout -b [branch-name]
+git checkout -b "name"
