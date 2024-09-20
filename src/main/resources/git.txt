@@ -1,0 +1,7 @@
+git init: Khởi tạo project
+git status: Xem các file có trong proj của mình
+git add . : Thêm tất cả lên
+git commit -m [giải thích cmt]
+git remote add origin https://github.com/nqthinhh/java-core.git : Địa chỉ cần đẩy lên
+git branch -M main : Chọn lên nhánh main
+git push -u origin main:
