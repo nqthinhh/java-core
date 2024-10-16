@@ -30,4 +30,16 @@ public class Exercise04 {
         System.out.println("Tên là " + lastName);
 
     }
+
+    int question11(String s){
+        int length = s.length();
+        int count = 0;
+        for (int i = 0; i < length; i++) {
+            if (s.charAt(i) == 'a'){
+                count++;
+            }
+
+        }
+        return count;
+    }
 }
