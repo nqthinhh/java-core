@@ -4,9 +4,11 @@ public class Student {
     private int id;
     private String name;
     public static String college;
+    public static int count;
 
-    public Student(int id, String name) {
-        this.id = id;
+    public Student(String name) {
+        count ++ ;
+        this.id = count;
         this.name = name;
     }
 }
